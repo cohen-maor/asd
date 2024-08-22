@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo5
+  datasource:
+    url: jdbc:mysql://mysql.railway.internal:3306/railway
+    username: root
+    password: JjiOGvMGizvjPhboiKJWIIEPubnAYOBL
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    show-sql: true
